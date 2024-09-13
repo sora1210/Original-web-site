@@ -51,7 +51,7 @@ header>span{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
+    /* border: solid; */
 }
 
 .spot{
