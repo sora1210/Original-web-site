@@ -1,3 +1,229 @@
-h1{
-    color: red;
+header{
+    width: 100%;
+    height:60px;
+    background-color:  #fffafa;
+    box-sizing: border-box;
+}
+
+header>span{
+    
+    font-size: 35px;
+}
+
+#section-01{
+    width:100%;
+    height:70vh;
+    /* background-image: url(../img/saizeriya.jpg);
+    background-position:center;
+    background-size: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero{
+    width: 50%;
+    height: auto;
+}
+
+#section-02{
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.section-title{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#section-02 > h1 {
+    font-size: 40px;
+    font-family: "serif";
+    margin-bottom:30px;
+    color: #006400;
+}
+
+.C-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot{
+    width: 50%;
+    height: 500px;
+    background-color: #f0fff0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    position: relative;
+}
+
+.spot > img{
+    width: 80%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.spot > h2{
+    font-size: 19px;
+    margin: 20px;
+}
+
+.spot > p{
+    font-size: 16px;
+    margin: 20px; 
+}
+
+#section-03{
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+}
+
+#section-03 > h1 {
+    font-size: 40px;
+    font-family: "serif";
+    margin-bottom:30px;
+    color: #a52a2a;
+}
+
+.C-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot2{
+    width: 50%;
+    height: 350px;
+    background-color: #fffafa;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    position: relative;
+}
+.spot2-cont{
+    display: flex;
+}
+
+.spot2-cont > img{
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.spot2 > h2{
+    font-size: 19px;
+    margin: 20px;
+}
+
+.spot2-cont > p{
+    font-size: 16px;
+    margin: 20px;
+}
+
+#section-04{
+    width:100%;
+    height: 600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#profile-img{
+    width:30%;
+    height:auto;
+    border-radius: 5px;
+}
+
+.profile-info{
+    width: 45%;
+    height: auto;
+}
+
+.profile-info > h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#profile-map{
+    display: block;
+    text-align: right;
+    margin-right: 180px ;
+    margin-top: 30px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    font-size: 22px;
+}
+
+.content > h3{
+    width: 40%;
+    line-height: 2;
+}
+
+.content > span{
+    width: 55%;
+    /* padding-left: 15px; */
+}
+
+#section-04 > a{
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+
+a.btn-gradient {
+    font-size: 1.5rem;
+    color: #333;
+    border-radius: 100vh;
+    background-image: -webkit-linear-gradient(110deg, #dee7fa 0%, #fbfcdb 100%);
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+a.btn-gradient span {
+    background-image: -webkit-gradient(linear, left top, right top, from(#333), to(#333));
+    background-image: -webkit-linear-gradient(left, #333 0%, #333 100%);
+    background-image: linear-gradient(to right, #333 0%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.btn-gradient:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+footer{
+    width:100%;
+    height:60px;
+    background-color:  #fffafa;
+}
+
+footer > h1 {
+    font-size: 24px;
+    font-family: "serif";
+    margin-bottom:30px;
+    text-align: center;
+    padding-right: 40px;
+    padding: 10px 0;
+    font-weight: 900;
 }
